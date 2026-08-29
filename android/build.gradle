@@ -1,0 +1,57 @@
+// Android launcher module.
+// Only included in the build when local.properties (with sdk.dir) exists —
+// open the project in Android Studio and it will set that up for you.
+plugins {
+    id 'com.android.application' version '8.2.2'
+    id 'org.jetbrains.kotlin.android' version '1.9.24'
+}
+
+android {
+    namespace 'com.ironfront.android'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.ironfront.android'
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName '0.1'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    kotlinOptions { jvmTarget = '11' }
+
+    sourceSets {
+        main {
+            java.srcDirs = ['src/main/kotlin']
+            assets.srcDirs = ['../assets']
+        }
+    }
+
+    packagingOptions {
+        resources.excludes += ['META-INF/AL2.0', 'META-INF/LGPL2.1']
+    }
+}
+
+dependencies {
+    implementation project(':core')
+    implementation 'com.badlogicgames.gdx:gdx-backend-android:1.12.1'
+    natives 'com.badlogicgames.gdx:gdx-platform:1.12.1:natives-armeabi-v7a'
+    natives 'com.badlogicgames.gdx:gdx-platform:1.12.1:natives-arm64-v8a'
+    natives 'com.badlogicgames.gdx:gdx-platform:1.12.1:natives-x86'
+    natives 'com.badlogicgames.gdx:gdx-platform:1.12.1:natives-x86_64'
+}
+
+// copy native libs into the APK (standard libGDX wiring)
+tasks.register('copyAndroidNatives', Copy) {
+    fileTree(dir: configurations.natives, include: '**/*.so')
+        .matching { it }.each { file ->
+            def parts = file.name.replace('lib', '').replace('.so', '').split('-')
+            def abi = parts.length > 1 ? parts[1] : 'arm'
+            into file("src/main/jniLibs/${abi}")
+        }
+}
+tasks.named('preBuild') { dependsOn 'copyAndroidNatives' }

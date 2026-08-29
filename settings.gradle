@@ -1,0 +1,25 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+        google()
+    }
+}
+rootProject.name = 'ironfront-1917'
+
+include ':core'
+include ':desktop'
+
+// The Android module is only part of the build when an Android SDK is
+// configured (Android Studio creates local.properties automatically).
+// This lets CI / headless boxes build core+desktop without the SDK.
+def hasAndroidSdk = new File(settingsDir, 'local.properties').exists()
+if (hasAndroidSdk || providers.gradleProperty('withAndroid').isPresent()) {
+    include ':android'
+}

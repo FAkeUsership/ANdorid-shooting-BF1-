@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#0d0f0a">
+<link rel="icon" href="data:,">
+<title>IRONFRONT 1917 — The Dead Walk</title>
+<link rel="stylesheet" href="css/ui.css">
+</head>
+<body>
+<canvas id="game"></canvas>
+
+<!-- ============ FULLSCREEN FX LAYERS ============ -->
+<div id="vignette"></div>
+<div id="damage-flash"></div>
+<div id="lowhp-pulse"></div>
+<div id="fade-layer"></div>
+<div id="dir-indicator"><div class="dir-arc"></div></div>
+
+<!-- ============ HUD ============ -->
+<div id="hud" class="hidden">
+  <canvas id="compass" width="360" height="26"></canvas>
+  <div id="objective-box"><span id="objective-icon">◆</span> <span id="objective-text">HOLD THE LINE</span></div>
+  <div id="wave-box">
+    <div id="wave-title">WAVE 1 / 3</div>
+    <div id="wave-sub">HOSTILES REMAINING: 0</div>
+  </div>
+  <div id="banner"></div>
+  <div id="oob-warn">⚠ RETURN TO THE BATTLEFIELD</div>
+
+  <div id="crosshair">
+    <div class="ch-line ch-t"></div><div class="ch-line ch-b"></div>
+    <div class="ch-line ch-l"></div><div class="ch-line ch-r"></div>
+    <div class="ch-dot"></div>
+  </div>
+  <div id="hitmarker">✕</div>
+
+  <div id="health-box">
+    <div id="health-bar-wrap"><div id="health-bar"></div></div>
+    <div id="health-num">100</div>
+  </div>
+
+  <div id="ammo-box">
+    <div id="weapon-name">G-17 RIFLE</div>
+    <div id="ammo-count"><span id="ammo-mag">5</span><span id="ammo-res"> / 45</span></div>
+    <div id="grenade-pips">✤ ✤ ✤</div>
+  </div>
+
+  <div id="killfeed"></div>
+  <div id="fps-counter"></div>
+  <div id="pause-btn" class="hud-btn">❚❚</div>
+  <div id="interact-hint"></div>
+</div>
+
+<!-- ============ TOUCH CONTROLS (mobile) ============ -->
+<div id="touch-ui" class="hidden">
+  <div id="joy-move-zone"><div id="joy-move-base" class="joy-base"><div class="joy-knob"></div></div></div>
+  <div id="look-zone"></div>
+  <div id="btn-fire" class="tbtn tbtn-fire">FIRE</div>
+  <div id="btn-ads" class="tbtn tbtn-ads">AIM</div>
+  <div id="btn-reload" class="tbtn">RELOAD</div>
+  <div id="btn-grenade" class="tbtn">✤</div>
+  <div id="btn-swap" class="tbtn">SWAP</div>
+  <div id="btn-jump" class="tbtn">▲</div>
+</div>
+
+<!-- ============ STORY / TITLE CARD ============ -->
+<div id="story-overlay" class="hidden">
+  <div id="story-box">
+    <div id="story-chapter">PROLOGUE</div>
+    <div id="story-text"></div>
+    <div id="story-continue">TAP TO CONTINUE ▸</div>
+  </div>
+</div>
+<div id="title-card" class="hidden"><div id="title-card-text"></div></div>
+
+<!-- ============ MAIN MENU ============ -->
+<div id="menu-main" class="screen">
+  <div class="menu-gradient"></div>
+  <div class="menu-content">
+    <div id="menu-title">IRONFRONT<span>1917</span></div>
+    <div id="menu-subtitle">THE GREAT WAR · THE DEAD WALK</div>
+    <div class="menu-buttons">
+      <button id="btn-deploy" class="mbtn primary">DEPLOY</button>
+      <button id="btn-settings" class="mbtn">SETTINGS</button>
+      <button id="btn-help" class="mbtn">FIELD MANUAL</button>
+    </div>
+    <div id="menu-footer">PERSONAL TEST BUILD · v0.1 · SOLO PROJECT — SAVE DATA STORED LOCALLY</div>
+  </div>
+</div>
+
+<!-- ============ MISSION SELECT ============ -->
+<div id="menu-missions" class="screen hidden">
+  <div class="menu-gradient"></div>
+  <div class="menu-content">
+    <h2 class="menu-h2">SELECT OPERATION</h2>
+    <div id="mission-list"></div>
+    <button id="btn-back-1" class="mbtn small">◂ BACK</button>
+  </div>
+</div>
+
+<!-- ============ SETTINGS ============ -->
+<div id="menu-settings" class="screen hidden">
+  <div class="menu-gradient"></div>
+  <div class="menu-content">
+    <h2 class="menu-h2">SETTINGS</h2>
+    <div class="set-row"><label>GRAPHICS QUALITY</label>
+      <div class="seg" id="seg-quality"><button data-v="auto">AUTO</button><button data-v="low">LOW</button><button data-v="high">HIGH</button></div>
+    </div>
+    <div class="set-row"><label>LOOK SENSITIVITY <span id="sens-val">1.0</span></label>
+      <input type="range" id="set-sens" min="0.3" max="2.5" step="0.1" value="1">
+    </div>
+    <div class="set-row"><label>INVERT LOOK (Y-AXIS)</label><div class="seg" id="seg-invert"><button data-v="off">OFF</button><button data-v="on">ON</button></div></div>
+    <div class="set-row"><label>SOUND</label><div class="seg" id="seg-sound"><button data-v="on">ON</button><button data-v="off">OFF</button></div></div>
+    <div class="set-row"><label>SHOW FPS</label><div class="seg" id="seg-fps"><button data-v="off">OFF</button><button data-v="on">ON</button></div></div>
+    <button id="btn-back-2" class="mbtn small">◂ BACK</button>
+  </div>
+</div>
+
+<!-- ============ FIELD MANUAL ============ -->
+<div id="menu-help" class="screen hidden">
+  <div class="menu-gradient"></div>
+  <div class="menu-content">
+    <h2 class="menu-h2">FIELD MANUAL</h2>
+    <div id="help-body">
+      <div class="help-col">
+        <h3>DESKTOP</h3>
+        <p><b>WASD</b> — move · <b>SHIFT</b> — sprint · <b>SPACE</b> — jump<br>
+        <b>MOUSE</b> — aim · <b>LMB</b> — fire · <b>RMB</b> — aim down sights<br>
+        <b>R</b> — reload · <b>G</b> — grenade · <b>1 / 2 / 3</b> — weapons · <b>ESC</b> — pause</p>
+        <h3>MOBILE</h3>
+        <p>Left stick moves · right side of screen aims.<br>FIRE / AIM / RELOAD / ✤ grenade / SWAP weapon / ▲ jump buttons.</p>
+      </div>
+      <div class="help-col">
+        <h3>INTELLIGENCE</h3>
+        <p>Headshots deal over double damage. Rifles kill runners in one headshot.<br>
+        Grenades clear clusters of the risen — throw them into craters where they claw out of the earth.<br>
+        Health regenerates after 6 seconds without taking fire. Resupply arrives between waves.<br>
+        Soldiers of the Grey Fire at range — close the distance or suppress them with accurate rifle fire.</p>
+      </div>
+    </div>
+    <button id="btn-back-3" class="mbtn small">◂ BACK</button>
+  </div>
+</div>
+
+<!-- ============ PAUSE ============ -->
+<div id="pause-menu" class="screen hidden">
+  <div class="menu-gradient soft"></div>
+  <div class="menu-content">
+    <h2 class="menu-h2">PAUSED</h2>
+    <div class="menu-buttons">
+      <button id="btn-resume" class="mbtn primary">RESUME</button>
+      <button id="btn-restart" class="mbtn">RESTART MISSION</button>
+      <button id="btn-quit" class="mbtn">ABANDON — MAIN MENU</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ DEATH ============ -->
+<div id="death-screen" class="screen hidden">
+  <div class="menu-gradient death"></div>
+  <div class="menu-content">
+    <h2 class="menu-h2 death-h">YOU FELL AT THE FRONT</h2>
+    <div id="death-stats" class="stats-block"></div>
+    <div class="menu-buttons">
+      <button id="btn-retry" class="mbtn primary">RETRY</button>
+      <button id="btn-death-quit" class="mbtn">MAIN MENU</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ MISSION COMPLETE ============ -->
+<div id="complete-screen" class="screen hidden">
+  <div class="menu-gradient win"></div>
+  <div class="menu-content">
+    <h2 class="menu-h2 win-h">OBJECTIVE COMPLETE</h2>
+    <div id="complete-stats" class="stats-block"></div>
+    <div id="unlock-note"></div>
+    <div class="menu-buttons">
+      <button id="btn-next" class="mbtn primary">CONTINUE</button>
+    </div>
+  </div>
+</div>
+
+<!-- scripts (all local — no external assets needed) -->
+<script src="js/vendor/three.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/world.js"></script>
+<script src="js/characters.js"></script>
+<script src="js/weapons.js"></script>
+<script src="js/enemies.js"></script>
+<script src="js/player.js"></script>
+<script src="js/game.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

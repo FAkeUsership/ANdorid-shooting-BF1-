@@ -1,0 +1,9 @@
+.gradle/
+build/
+out/
+local.properties
+.idea/
+*.iml
+captures/
+android/src/main/jniLibs/
+.DS_Store

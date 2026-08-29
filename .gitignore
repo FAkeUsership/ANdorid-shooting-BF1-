@@ -7,3 +7,4 @@ local.properties
 captures/
 android/src/main/jniLibs/
 .DS_Store
+.toolchain/

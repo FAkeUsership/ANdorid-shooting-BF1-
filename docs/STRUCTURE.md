@@ -7,7 +7,7 @@ Status: ✅ done · 🚧 skeleton started · ⬜ not started
 |---|---------|----------|--------|
 | S0 | Repo & build skeleton | Gradle multi-module (core / desktop / android), docs, license, asset-policy, web prototype reference | ✅ |
 | S1 | Core engine | State machine, FPS camera, mouse/touch look, WASD move, ModelBatch rendering | 🚧 skeleton in |
-| S2 | World generation | Displaced vertex-colored terrain, trench carving, craters, instanced sandbags/posts/rocks, ruined church, sky/clouds/fog | ⬜ |
+| S2 | World generation | Displaced vertex-colored terrain, trench carving, craters, merged sandbags/posts/rocks/grass, ruined houses + church, clouds, hills (≈3 draw calls; distance fog deferred to S9) | ✅ |
 | S3 | Characters | Low-poly humanoid rigs (zombie/runner/soldier), procedural walk/attack/death animation | ⬜ |
 | S4 | Weapons & combat | Hitscan raycasts, tracers, recoil/ADS/reload, grenades, explosions, pooled particles | ⬜ |
 | S5 | Enemy AI & waves | rise→chase→lunge / ranged fire states, steering, wave/phase scheduler from Config | ⬜ |

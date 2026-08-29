@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -330581531, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: SniperStationarySpringfield1903
+  m_EditorClassIdentifier:
+  id: 520
+  inventorySize: 2
+  stackable: 0
+  city: 1
+  cityMax: 0
+  questItem: 0
+  smallImage: {fileID: 21300000, guid: 30ead5c301d19944ca05af8d4f24daa7, type: 2}
+  price: 0
+  priceMultiplicator: 1
+  sellPriceOverride: -1
+  count: []
+  liveCheckpoint: 0
+  chanceToTrader: 0
+  linearPowerCoeff: 1.2
+  absolutePowerCoeff: 0
+  bundleId: 2
+  modelObject:
+    fileName: Assets/Bundles/WeaponsBundle/PerCity/Weapon/Projectile/Stationary/W-Springfield1903SniperStationary.prefab
+  modelAo:
+    fileName: Assets/Bundles/WeaponsBundle/NonPerCity/NonPool/AO/Weapons/SpringfieldSniperStationary_AO.png
+  bundleLinkDefaultSight:
+    fileName:
+  modelMaterial:
+    fileName: Assets/_Sources/Materials/FakeMaterials/OnTop/Stationary/WzFakeOnTop StatSpringfield1903Sniper.mat
+  weaponSkinId: 17
+  weaponItemType: 2
+  dualWeapon: 0
+  damage: 60
+  weaponRange: 100
+  attackRate: 0.9
+  hitForce: 250
+  hitForceItems: 250
+  crosshair: 2
+  minimumSpread: 1
+  maximumSpread: 10
+  increasePulseSpeed: 5
+  decreasePulseSpeed: 30
+  idleSpreadModificator: 1
+  walkSpreadModificator: 2
+  sprintSpreadModificator: 5
+  aimSpreadModificator: 0
+  airSpreadModificator: 3
+  crouchSpreadModificator: 0.4
+  shakeSpeed: 1.35
+  shakeDuration: 0.2
+  shakeMagnitude: 0.1
+  stopShootingDelay: 0
+  ammoType: 2
+  projectileType: 1
+  explosionConfig: {fileID: 0}
+  traildId: 1
+  casingType: 2
+  muzzleId: 1
+  changeableSights: 0
+  defaultSight: 0
+  ammoMagazineSize: 1
+  interruptableShotgunReload: 0
+  isSniper: 1
+  bulletSpeed: 200
+  reloadTime: 1.9
+  numberBullets: 1
+  recoilDuration: 0.85
+  recoilMagnitude: 1.2
+  fovAim: 30
+  menuModelObject:
+    fileName:
+  menuModelMaterial:
+    fileName:

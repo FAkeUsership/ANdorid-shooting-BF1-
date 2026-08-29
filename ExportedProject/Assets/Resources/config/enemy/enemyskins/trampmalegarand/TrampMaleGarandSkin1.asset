@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1902413762, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: TrampMaleGarandSkin1
+  m_EditorClassIdentifier:
+  enemyId: 17
+  id: 1
+  data:
+  - {r: 0.6313726, g: 0.1764706, b: 0.1764706, a: 1}
+  - {r: 0.5660378, g: 0.15752938, b: 0.15752938, a: 1}
+  - {r: 0.4433962, g: 0.22797258, b: 0.23387663, a: 1}
+  - {r: 0.18867922, g: 0.18867922, b: 0.18867922, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0.2117586, g: 0.3207547, b: 0.20425418, a: 1}
+  - {r: 0.4528302, g: 0.36336204, b: 0.26699895, a: 1}
+  - {r: 0.1981132, g: 0.14703125, b: 0.10746707, a: 1}
+  - {r: 0.6320754, g: 0.17590779, b: 0.17590779, a: 1}
+  - {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
+  - {r: 0.8018868, g: 0.7801787, b: 0.6770648, a: 1}
+  - {r: 0.8018868, g: 0.60849273, b: 0.374466, a: 1}
+  - {r: 0.03773582, g: 0.03773582, b: 0.03773582, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0.9339623, g: 0.8881973, b: 0.82382524, a: 1}
+  dirtValue: 0.4
+  dirtColor: {r: 0.2264151, g: 0.07155571, b: 0.07155571, a: 1}

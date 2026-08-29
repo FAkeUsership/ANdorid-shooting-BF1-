@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1282090809, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: LockpickNormal
+  m_EditorClassIdentifier:
+  id: 3500
+  inventorySize: 1
+  stackable: 1
+  city: 1
+  cityMax: 0
+  questItem: 0
+  smallImage: {fileID: 21300000, guid: 1eef3c561898b6142940f40024a44ef1, type: 2}
+  price: 100
+  priceMultiplicator: 1
+  sellPriceOverride: -1
+  count:
+  - Chance: 1
+    MinMax:
+      Min: 4
+      Max: 7
+  - Chance: 0.6
+    MinMax:
+      Min: 2
+      Max: 4
+  liveCheckpoint: 0
+  chanceToTrader: 10
+  chanceToBreak: 70

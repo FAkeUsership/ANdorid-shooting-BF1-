@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -330581531, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: LaserSniperRifle
+  m_EditorClassIdentifier:
+  id: 537
+  inventorySize: 2
+  stackable: 0
+  city: 4
+  cityMax: 0
+  questItem: 0
+  smallImage: {fileID: 21300000, guid: effab84fc47fbb046ad6206dfe43d956, type: 2}
+  price: 0
+  priceMultiplicator: 2.6
+  sellPriceOverride: -1
+  count: []
+  liveCheckpoint: 0
+  chanceToTrader: 0
+  linearPowerCoeff: 1
+  absolutePowerCoeff: 0
+  bundleId: 9
+  modelObject:
+    fileName: Assets/Bundles/WeaponsBundle/PerCity/Weapon/Projectile/W-LaserSniperRifle.prefab
+  modelAo:
+    fileName: Assets/Bundles/WeaponsBundle/NonPerCity/NonPool/AO/Weapons/LaserRifle_Sniper_AO.png
+  bundleLinkDefaultSight:
+    fileName:
+  modelMaterial:
+    fileName: Assets/_Sources/Materials/FakeMaterials/OnTop/WzFakeOnTop LaserSniperRifle.mat
+  weaponSkinId: 3
+  weaponItemType: 4
+  dualWeapon: 0
+  damage: 70
+  weaponRange: 100
+  attackRate: 1
+  hitForce: 200
+  hitForceItems: 200
+  crosshair: 2
+  minimumSpread: 1
+  maximumSpread: 15
+  increasePulseSpeed: 3.5
+  decreasePulseSpeed: 27
+  idleSpreadModificator: 1
+  walkSpreadModificator: 2
+  sprintSpreadModificator: 5
+  aimSpreadModificator: 0.3
+  airSpreadModificator: 3
+  crouchSpreadModificator: 0.4
+  shakeSpeed: 1.35
+  shakeDuration: 0.2
+  shakeMagnitude: 0.1
+  stopShootingDelay: 0
+  ammoType: 6
+  projectileType: 11
+  explosionConfig: {fileID: 0}
+  traildId: 7
+  casingType: 0
+  muzzleId: 4
+  changeableSights: 0
+  defaultSight: 1
+  ammoMagazineSize: 5
+  interruptableShotgunReload: 0
+  isSniper: 1
+  bulletSpeed: 200
+  reloadTime: 3
+  numberBullets: 1
+  recoilDuration: 0.85
+  recoilMagnitude: 1.2
+  fovAim: 10
+  menuModelObject:
+    fileName: Assets/Bundles/WeaponsBundle/PerCity/MenuWeapons/MW-LaserSniper.prefab
+  menuModelMaterial:
+    fileName: Assets/_Sources/Materials/FakeMaterials/Shop/WzShopOnTop LaserSniper.mat

@@ -1,0 +1,568 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 278427397, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: CConfigGame
+  m_EditorClassIdentifier:
+  StartSceneName: Start
+  Settings:
+    ResolutionRange:
+      Min: 0.2
+      Max: 1
+    FovRange:
+      Min: 50
+      Max: 65
+    DefaultQualityMobile: 2
+    DefaultFireMobile: 1
+    MobileSensitivityRange:
+      Min: 0.1
+      Max: 0.4
+    MobileAccelerationRange:
+      Min: 0
+      Max: 2
+    DefaultFireStandalone: 2
+    PcSensitivityRange:
+      Min: 0.1
+      Max: 1
+    PcAccelerationRange:
+      Min: 0
+      Max: 2
+  PlayerStartingItems:
+  - UId: 0
+    Id: 1503
+    Count: 100
+  - UId: 0
+    Id: 4501
+    Count: 3
+  - UId: 0
+    Id: 2003
+    Count: 1
+  - UId: 0
+    Id: 2002
+    Count: 1
+  - UId: 0
+    Id: 1503
+    Count: 30
+  TrunkFromLevel: 4
+  PlayerStartingTrunkItems:
+  - UId: 0
+    Id: 3000
+    Count: 1
+  - UId: 0
+    Id: 3001
+    Count: 1
+  - UId: 0
+    Id: 4501
+    Count: 4
+  PlayerLevelReward:
+    SkillPoints:
+      EveryLevels:
+        currentCryptoKey: 444444
+        hiddenValue: 444445
+        fakeValue: 1
+        fakeValueActive: 1
+        inited: 1
+      Value:
+        currentCryptoKey: 444444
+        hiddenValue: 444441
+        fakeValue: 5
+        fakeValueActive: 1
+        inited: 1
+    PerkPoints:
+      EveryLevels:
+        currentCryptoKey: 444444
+        hiddenValue: 444447
+        fakeValue: 3
+        fakeValueActive: 1
+        inited: 1
+      Value:
+        currentCryptoKey: 444444
+        hiddenValue: 444445
+        fakeValue: 1
+        fakeValueActive: 1
+        inited: 1
+    Gas:
+      EveryLevels:
+        currentCryptoKey: 444444
+        hiddenValue: 444445
+        fakeValue: 1
+        fakeValueActive: 1
+        inited: 1
+      Value:
+        currentCryptoKey: 444444
+        hiddenValue: 444435
+        fakeValue: 15
+        fakeValueActive: 1
+        inited: 1
+  PainHudTreshold: 34
+  ItemTrashConfirmFrom: 500
+  PlayerRespawnHealth: 20
+  rageModeDamageCoef: 0.2
+  MinimumDangerDistanceFromEnemy: 20
+  AdsDefaultValues:
+    adsEnabled: 1
+    timeBetweenAds: 240
+    playerLevelAds: 3
+  GoldRewardedVideosDailyCount: 6
+  GasRewardedVideosDailyCount: 6
+  DealerRewardedVideosDailyCount: 12
+  CollectionQuestRewardedVideosDailyCount: 5
+  ReviveRewardedVideosDailyCount: 5
+  MissionRewardedVideosDailyCount: 6
+  LeatherScrapVideoBonus: 200
+  IronScrapVideoBonus: 300
+  SilverScrapVideoBonus: 400
+  GoldScrapVideoBonus: 500
+  HackingSettings:
+  - difficulty: 1
+    zoneSize: 100
+    minCursorSpeed: 7
+    maxCursorSpeed: 8
+  - difficulty: 2
+    zoneSize: 80
+    minCursorSpeed: 11
+    maxCursorSpeed: 12
+  - difficulty: 3
+    zoneSize: 55
+    minCursorSpeed: 13
+    maxCursorSpeed: 14
+  - difficulty: 4
+    zoneSize: 40
+    minCursorSpeed: 15
+    maxCursorSpeed: 16
+  easyDamage: 5
+  mediumDamage: 5
+  hardDamage: 10
+  UpgradePricePercent: 0.2
+  UpgradeValuePercent: 0.1
+  WeaponSightPrice: 90
+  DamageUpgradeInGold: 1
+  AttackRateUpgradeInGold: 0
+  ReloadSpeedUpgradeInGold: 0
+  MagazineUpgradeInGold: 1
+  SpreadUpgradeInGold: 0
+  CriticalDamageUpgradeInGold: 1
+  UpgradePricePercentNew: 0.06
+  UpgradeValuePercentNew: 0.03
+  baseGasMobile: 50
+  baseGasStandalone: 70
+  GlobalToMapDistanceCoef: 0.6
+  TravelSpeedCoef: 0.0015
+  TravelConsumptionCoef: 0.5
+  EncountersAfterQuest: 6
+  EncounterDistance: 0.16
+  DefaultEncounterProbability: 0.08
+  CityEncounterProbability:
+  - CityId: 4
+    Probability: 0.03
+  MaxEncounters: 1
+  SameEncounterAfter: 2
+  AbandonQuestDistance: 100
+  MinGrindLocationDurationTimeMinutes: 20
+  MaxGrindLocationDurationTimeMinutes: 240
+  NextGrindLocationVideoTimeMinutes: 720
+  AutoFireDelay:
+    currentCryptoKey: 230887
+    hiddenValue: 1011470122
+    hiddenValueOldByte4:
+      b1: 0
+      b2: 0
+      b3: 0
+      b4: 0
+    fakeValue: 0.025
+    fakeValueActive: 1
+    inited: 1
+  prefabExploration:
+    BundleId: 3
+    Object:
+      fileName: Assets/Bundles/OthersBundle/Particles/Exploration.prefab
+  nameTagVisibility: 700
+  nameTagShortVisibility: 110
+  healthBarVisibility: 800
+  installGameBonusCoins: 100
+  vehicleSkinPrice: 30
+  sellScrapVideoBonus: 2
+  couponeCodes:
+  - Code: CHRISTMAS2019
+    date:
+      Year: 2020
+      Month: 1
+      Day: 30
+    SilverCoinsReward: 0
+    GoldCoinsReward: 0
+    ItemsReward:
+    - ItemId: 1007
+      ItemCount: 20
+  - Code: THANKYOU
+    date:
+      Year: 2021
+      Month: 1
+      Day: 1
+    SilverCoinsReward: 0
+    GoldCoinsReward: 0
+    ItemsReward:
+    - ItemId: 1006
+      ItemCount: 10
+  - Code: KILLZOMBIE
+    date:
+      Year: 2100
+      Month: 1
+      Day: 1
+    SilverCoinsReward: 0
+    GoldCoinsReward: 0
+    ItemsReward:
+    - ItemId: 1008
+      ItemCount: 10
+  - Code: SILVERCOINS
+    date:
+      Year: 2021
+      Month: 1
+      Day: 1
+    SilverCoinsReward: 2000
+    GoldCoinsReward: 0
+    ItemsReward: []
+  - Code: GOLDGOLD
+    date:
+      Year: 2021
+      Month: 1
+      Day: 1
+    SilverCoinsReward: 0
+    GoldCoinsReward: 20
+    ItemsReward: []
+  - Code: INEEDGAS
+    date:
+      Year: 2021
+      Month: 1
+      Day: 1
+    SilverCoinsReward: 0
+    GoldCoinsReward: 0
+    ItemsReward:
+    - ItemId: 3601
+      ItemCount: 1
+  - Code: ZOMBERO
+    date:
+      Year: 2100
+      Month: 1
+      Day: 1
+    SilverCoinsReward: 0
+    GoldCoinsReward: 40
+    ItemsReward: []
+  - Code: WIKIFANDOM
+    date:
+      Year: 2100
+      Month: 1
+      Day: 1
+    SilverCoinsReward: 0
+    GoldCoinsReward: 0
+    ItemsReward:
+    - ItemId: 2505
+      ItemCount: 1
+  - Code: CHRISTMASTREE2021
+    date:
+      Year: 2022
+      Month: 1
+      Day: 31
+    SilverCoinsReward: 0
+    GoldCoinsReward: 0
+    ItemsReward:
+    - ItemId: 1007
+      ItemCount: 10
+  - Code: SANTA2022
+    date:
+      Year: 2023
+      Month: 1
+      Day: 31
+    SilverCoinsReward: 0
+    GoldCoinsReward: 0
+    ItemsReward:
+    - ItemId: 1007
+      ItemCount: 10
+  - Code: ENDCOVIDEPIDEMIC
+    date:
+      Year: 2022
+      Month: 12
+      Day: 30
+    SilverCoinsReward: 0
+    GoldCoinsReward: 0
+    ItemsReward:
+    - ItemId: 4502
+      ItemCount: 1
+    - ItemId: 4501
+      ItemCount: 1
+  - Code: ZOMBIEDAY
+    date:
+      Year: 2022
+      Month: 1
+      Day: 1
+    SilverCoinsReward: 0
+    GoldCoinsReward: 0
+    ItemsReward:
+    - ItemId: 4303
+      ItemCount: 3
+  - Code: 20MELONES
+    date:
+      Year: 2023
+      Month: 1
+      Day: 1
+    SilverCoinsReward: 3000
+    GoldCoinsReward: 0
+    ItemsReward: []
+  - Code: ZOMBIEBOWL22
+    date:
+      Year: 2023
+      Month: 1
+      Day: 1
+    SilverCoinsReward: 0
+    GoldCoinsReward: 0
+    ItemsReward:
+    - ItemId: 1008
+      ItemCount: 10
+  - Code: SCARYDAY2021
+    date:
+      Year: 2021
+      Month: 11
+      Day: 30
+    SilverCoinsReward: 0
+    GoldCoinsReward: 0
+    ItemsReward:
+    - ItemId: 4301
+      ItemCount: 3
+  - Code: NIGHTMARE2022
+    date:
+      Year: 2022
+      Month: 11
+      Day: 30
+    SilverCoinsReward: 0
+    GoldCoinsReward: 0
+    ItemsReward:
+    - ItemId: 4304
+      ItemCount: 3
+  - Code: PINEAPPLEDAY
+    date:
+      Year: 2022
+      Month: 7
+      Day: 30
+    SilverCoinsReward: 0
+    GoldCoinsReward: 0
+    ItemsReward:
+    - ItemId: 1006
+      ItemCount: 10
+  - Code: ENDOFGASOLINE
+    date:
+      Year: 2030
+      Month: 1
+      Day: 1
+    SilverCoinsReward: 0
+    GoldCoinsReward: 0
+    ItemsReward:
+    - ItemId: 3601
+      ItemCount: 1
+  missionRewards:
+  - resource: 2
+    item: 0
+    lowCount: 10
+    highCount: 15
+    showFrom: 2
+    showTo: 0
+  - resource: 0
+    item: 1502
+    lowCount: 200
+    highCount: 250
+    showFrom: 0
+    showTo: 0
+  - resource: 0
+    item: 1500
+    lowCount: 200
+    highCount: 250
+    showFrom: 1
+    showTo: 0
+  - resource: 0
+    item: 1501
+    lowCount: 200
+    highCount: 250
+    showFrom: 0
+    showTo: 0
+  - resource: 0
+    item: 1503
+    lowCount: 30
+    highCount: 50
+    showFrom: 0
+    showTo: 0
+  - resource: 0
+    item: 1508
+    lowCount: 30
+    highCount: 60
+    showFrom: 0
+    showTo: 0
+  - resource: 1
+    item: 0
+    lowCount: 200
+    highCount: 300
+    showFrom: 1
+    showTo: 1
+  - resource: 1
+    item: 0
+    lowCount: 400
+    highCount: 600
+    showFrom: 2
+    showTo: 3
+  - resource: 1
+    item: 0
+    lowCount: 700
+    highCount: 1200
+    showFrom: 4
+    showTo: 4
+  - resource: 1
+    item: 0
+    lowCount: 1000
+    highCount: 1800
+    showFrom: 5
+    showTo: 5
+  - resource: 0
+    item: 1001
+    lowCount: 3
+    highCount: 4
+    showFrom: 1
+    showTo: 1
+  - resource: 0
+    item: 1000
+    lowCount: 3
+    highCount: 4
+    showFrom: 2
+    showTo: 3
+  - resource: 0
+    item: 1003
+    lowCount: 3
+    highCount: 4
+    showFrom: 4
+    showTo: 4
+  - resource: 0
+    item: 1005
+    lowCount: 2
+    highCount: 3
+    showFrom: 5
+    showTo: 5
+  - resource: 0
+    item: 4501
+    lowCount: 1
+    highCount: 2
+    showFrom: 1
+    showTo: 1
+  - resource: 0
+    item: 4501
+    lowCount: 2
+    highCount: 3
+    showFrom: 2
+    showTo: 3
+  - resource: 0
+    item: 4500
+    lowCount: 1
+    highCount: 2
+    showFrom: 4
+    showTo: 4
+  - resource: 0
+    item: 4500
+    lowCount: 1
+    highCount: 2
+    showFrom: 5
+    showTo: 5
+  missionRewardAmmoTreshold: 300
+  missionRewardItemTreshold: 5
+  silverCoinsBase: 0.3
+  silverCoinsLowReward: 0.25
+  silverCoinsHighReward: 0.5
+  boosterLowPower: 15
+  boosterHighPower: 25
+  silverCoinsVideoLowReward: 0.2
+  silverCoinsVideoHighReward: 0.6
+  goldCoinsVideoLowReward: 10
+  goldCoinsVideoHighReward: 20
+  stunSpeed:
+    currentCryptoKey: 230887
+    hiddenValue: 1028126312
+    hiddenValueOldByte4:
+      b1: 0
+      b2: 0
+      b3: 0
+      b4: 0
+    fakeValue: 0.12
+    fakeValueActive: 1
+    inited: 1
+  stunLength:
+    currentCryptoKey: 230887
+    hiddenValue: 1082491879
+    hiddenValueOldByte4:
+      b1: 0
+      b2: 0
+      b3: 0
+      b4: 0
+    fakeValue: 4
+    fakeValueActive: 1
+    inited: 1
+  stunProgressive:
+    currentCryptoKey: 215
+    hiddenValue: 2
+    fakeValue: 1
+    inited: 1
+    fakeValueActive: 1
+  headshotMultiplicator:
+    currentCryptoKey: 230887
+    hiddenValue: 1082475495
+    hiddenValueOldByte4:
+      b1: 0
+      b2: 0
+      b3: 0
+      b4: 0
+    fakeValue: 3
+    fakeValueActive: 1
+    inited: 1
+  criticalMultiplier:
+    currentCryptoKey: 230887
+    hiddenValue: 1082459111
+    hiddenValueOldByte4:
+      b1: 0
+      b2: 0
+      b3: 0
+      b4: 0
+    fakeValue: 2
+    fakeValueActive: 1
+    inited: 1
+  aimDamageBonus:
+    currentCryptoKey: 230887
+    hiddenValue: 1028247338
+    hiddenValueOldByte4:
+      b1: 0
+      b2: 0
+      b3: 0
+      b4: 0
+    fakeValue: 0.1
+    fakeValueActive: 1
+    inited: 1
+  maxSkillPoints: 200
+  encyklopediaConstant: 40
+  refreshOfferPrice: 10
+  woodlandsMaxSellSilver: 1000
+  springfieldMaxSellSilver: 650
+  cityOfSunMaxSellSilver: 650
+  northtownMaxSellSilver: 650
+  TimeToGuardRegeneration: 3600
+  TimeToTrainerRegeneration: 43200
+  lastQuests: be0f0000c40f0000
+  dailyQuestsUnlockLevel: 3
+  InstaKillDamage: 10000000
+  seasons:
+  - name: 1
+    from:
+      Day: 9
+      Month: 12
+    to:
+      Day: 5
+      Month: 1

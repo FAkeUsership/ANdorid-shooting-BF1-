@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1228430596, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: Auger
+  m_EditorClassIdentifier:
+  id: 14
+  inventorySize: 2
+  stackable: 0
+  city: 4
+  cityMax: 0
+  questItem: 0
+  smallImage: {fileID: 21300000, guid: 9a64bd2df9289144cad796c91ee8235b, type: 2}
+  price: 0
+  priceMultiplicator: 6
+  sellPriceOverride: -1
+  count: []
+  liveCheckpoint: 0
+  chanceToTrader: 0
+  linearPowerCoeff: 2
+  absolutePowerCoeff: 30
+  bundleId: 9
+  modelObject:
+    fileName: Assets/Bundles/WeaponsBundle/PerCity/Weapon/Melee/W-Auger.prefab
+  modelAo:
+    fileName: Assets/Bundles/WeaponsBundle/NonPerCity/NonPool/AO/Weapons/Auger_AO.png
+  bundleLinkDefaultSight:
+    fileName:
+  modelMaterial:
+    fileName: Assets/_Sources/Materials/FakeMaterials/OnTop/WzFakeOnTop Auger.mat
+  weaponSkinId: 16
+  weaponItemType: 1
+  dualWeapon: 0
+  damage: 14
+  weaponRange: 2.5
+  attackRate: 0.75
+  hitForce: 65
+  hitForceItems: 80
+  crosshair: 3
+  minimumSpread: 3
+  maximumSpread: 15
+  increasePulseSpeed: 5
+  decreasePulseSpeed: 20
+  idleSpreadModificator: 1
+  walkSpreadModificator: 1
+  sprintSpreadModificator: 1
+  aimSpreadModificator: 0.3
+  airSpreadModificator: 3
+  crouchSpreadModificator: 0.4
+  shakeSpeed: 0.7
+  shakeDuration: 0.3
+  shakeMagnitude: 0.1
+  isTool: 0
+  repeatOnHold: 1
+  repeatStopDelay: 0
+  digPower: 1.5

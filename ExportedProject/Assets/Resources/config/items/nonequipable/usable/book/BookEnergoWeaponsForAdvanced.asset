@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -911729156, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: BookEnergoWeaponsForAdvanced
+  m_EditorClassIdentifier:
+  id: 2507
+  inventorySize: 1
+  stackable: 0
+  city: 4
+  cityMax: 0
+  questItem: 0
+  smallImage: {fileID: 21300000, guid: c5afa8b3e21d5b847819839b09641c25, type: 2}
+  price: 0
+  priceMultiplicator: 2.5
+  sellPriceOverride: 650
+  count:
+  - Chance: 1
+    MinMax:
+      Min: 1
+      Max: 1
+  liveCheckpoint: 0
+  chanceToTrader: 5
+  skill: 14
+  points: 1
+  usableRange:
+    Min: 100
+    Max: 149

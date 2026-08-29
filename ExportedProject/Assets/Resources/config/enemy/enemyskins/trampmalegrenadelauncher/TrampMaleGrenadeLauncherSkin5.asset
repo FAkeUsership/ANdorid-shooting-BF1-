@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1902413762, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: TrampMaleGrenadeLauncherSkin5
+  m_EditorClassIdentifier:
+  enemyId: 38
+  id: 5
+  data:
+  - {r: 0.07756318, g: 0.11613042, b: 0.1981132, a: 1}
+  - {r: 0.17466182, g: 0.19194226, b: 0.23584908, a: 1}
+  - {r: 0.17007832, g: 0.19192773, b: 0.24528301, a: 1}
+  - {r: 0.254717, g: 0.13336597, b: 0.13336597, a: 1}
+  - {r: 0.13176396, g: 0.1981132, b: 0.13936085, a: 1}
+  - {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}
+  - {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 1}
+  - {r: 0.2830189, g: 0.2155378, b: 0.16687435, a: 1}
+  - {r: 0.14352486, g: 0.21698111, b: 0.13407795, a: 1}
+  - {r: 0.0754717, g: 0.0754717, b: 0.0754717, a: 1}
+  - {r: 0.4433962, g: 0.3152947, b: 0.2237896, a: 1}
+  - {r: 0.5377358, g: 0.29704374, b: 0.20038268, a: 1}
+  - {r: 0.3584906, g: 0.25362387, b: 0.1538804, a: 1}
+  - {r: 0.03, g: 0.03, b: 0.03, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0.7647059, g: 0.6986165, b: 0.5803922, a: 1}
+  dirtValue: 0.35
+  dirtColor: {r: 0.20754719, g: 0.13636072, b: 0.08125668, a: 1}

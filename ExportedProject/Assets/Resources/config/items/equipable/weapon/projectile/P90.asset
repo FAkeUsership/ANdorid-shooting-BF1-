@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -330581531, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: P90
+  m_EditorClassIdentifier:
+  id: 512
+  inventorySize: 2
+  stackable: 0
+  city: 4
+  cityMax: 0
+  questItem: 0
+  smallImage: {fileID: 21300000, guid: b8d1a452adf7db24386082ab88796a71, type: 2}
+  price: 0
+  priceMultiplicator: 1
+  sellPriceOverride: -1
+  count:
+  - Chance: 1
+    MinMax:
+      Min: 1
+      Max: 1
+  liveCheckpoint: 0
+  chanceToTrader: 1
+  linearPowerCoeff: 1
+  absolutePowerCoeff: 0
+  bundleId: 9
+  modelObject:
+    fileName: Assets/Bundles/WeaponsBundle/PerCity/Weapon/Projectile/W-P90.prefab
+  modelAo:
+    fileName: Assets/Bundles/WeaponsBundle/NonPerCity/NonPool/AO/Weapons/P90_AO.png
+  bundleLinkDefaultSight:
+    fileName: Assets/Bundles/WeaponsBundle/PerCity/Sights/P90DefaultSight.prefab
+  modelMaterial:
+    fileName: Assets/_Sources/Materials/FakeMaterials/OnTop/WzFakeOnTop P90.mat
+  weaponSkinId: 2
+  weaponItemType: 2
+  dualWeapon: 0
+  damage: 15
+  weaponRange: 100
+  attackRate: 0.08
+  hitForce: 180
+  hitForceItems: 180
+  crosshair: 2
+  minimumSpread: 1
+  maximumSpread: 6
+  increasePulseSpeed: 3
+  decreasePulseSpeed: 20
+  idleSpreadModificator: 1
+  walkSpreadModificator: 2
+  sprintSpreadModificator: 5
+  aimSpreadModificator: 0.3
+  airSpreadModificator: 3
+  crouchSpreadModificator: 0.4
+  shakeSpeed: 1.35
+  shakeDuration: 0.2
+  shakeMagnitude: 0.1
+  stopShootingDelay: 0.35
+  ammoType: 1
+  projectileType: 1
+  explosionConfig: {fileID: 0}
+  traildId: 1
+  casingType: 2
+  muzzleId: 1
+  changeableSights: 1
+  defaultSight: 13
+  ammoMagazineSize: 50
+  interruptableShotgunReload: 0
+  isSniper: 0
+  bulletSpeed: 200
+  reloadTime: 4
+  numberBullets: 1
+  recoilDuration: 0.85
+  recoilMagnitude: 1.2
+  fovAim: 30
+  menuModelObject:
+    fileName: Assets/Bundles/WeaponsBundle/PerCity/MenuWeapons/MW-P90.prefab
+  menuModelMaterial:
+    fileName: Assets/_Sources/Materials/FakeMaterials/Shop/WzShopOnTop P90.mat

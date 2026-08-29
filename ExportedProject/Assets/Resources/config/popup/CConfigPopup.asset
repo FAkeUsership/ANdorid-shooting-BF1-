@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1417453205, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: CConfigPopup
+  m_EditorClassIdentifier:
+  timeBetweenAds:
+    currentCryptoKey: 444444
+    hiddenValue: 444720
+    fakeValue: 300
+    fakeValueActive: 1
+    inited: 1
+  timeBetweenAdsSteam:
+    currentCryptoKey: 444444
+    hiddenValue: 444996
+    fakeValue: 600
+    fakeValueActive: 1
+    inited: 1
+  showAdsSinceLevel:
+    currentCryptoKey: 444444
+    hiddenValue: 444447
+    fakeValue: 0
+    fakeValueActive: 0
+    inited: 1
+  specialOfferProbability: 70
+  specialOfferStandaloneProbability: 7
+  armorOfferProbability: 10
+  armorOfferStandaloneProbability: 1
+  backpackUpgradeOfferProbability: 10
+  backpackUpgradeOfferStandaloneProbability: 1
+  noAdsUpgradeOfferProbability: 20
+  noAdsUpgradeOfferStandaloneProbability: 1
+  heroPackUpgradeOfferProbability: 60
+  heroPackUpgradeOfferStandaloneProbability: 6
+  survivalPackOfferProbability: 60
+  survivalPackUpgradeOfferStandaloneProbability: 6
+  googlePlayLoginProbability: 5
+  googlePlayLoginStandaloneProbability: 0
+  zombiePassPremiumProbability: 200
+  rateUsProbability: 1
+  rateUsStandaloneProbability: 0
+  promoProbability: 1
+  promoStandaloneProbability: 0
+  vehicleOfferProbability: 30
+  vehicleStandaloneOfferProbability: 2
+  bestValueHcProbability: 100
+  bestValueHcStandaloneProbability: 30
+  offerwallProbability: 70
+  offerwallEventProbability: 200
+  steamPackProbability: 0
+  steamPackStandaloneProbability: 60
+  freeResourcesProbability: 100
+  limitedNoAdsProbability: 300
+  dailyPackProbability: 300
+  slayerBoosterPackProbability: 30
+  missionBoosterPackProbability: 30
+  superBoosterPackProbability: 40
+  videoChance: 70
+  reviveGoldCost: 40
+  reviveHealth: 50
+  showRateUsQuestIds: 120000000c0000001b000000190000000e0000001600000067ea00006aea0000212700001e2700002527000044270000422700005627000058270000382700002b270000f103000048270000432700003f2700005c2700006127000062270000672700004aee00004cee000056ee000058ee0000bd0b0000c10b0000c40b0000c90b0000d80b0000db0b0000de0b0000e10b0000e60b0000e90b0000f40b0000010c0000080c00000b0c00000e0c0000110c0000150c00001a0c00003bf2000032f20000a10f0000a70f0000b40f0000bc0f0000c40f0000c90f0000cb0f0000cf0f0000d30f0000d70f0000da0f0000df0f0000e30f0000ea0f00001af600001df600001ff60000
+  showInAppReviewQuestIds: 0c000000120000001e2700004227000048270000c10b0000c90b0000e90b0000d30f0000da0f0000e30f0000

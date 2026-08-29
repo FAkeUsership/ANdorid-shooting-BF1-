@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1282699510, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: 6GrenadePineapple
+  m_EditorClassIdentifier:
+  id: 1006
+  inventorySize: 1
+  stackable: 1
+  city: 1
+  cityMax: 0
+  questItem: 0
+  smallImage: {fileID: 21300000, guid: ed192edf1a36c4b49976df7cbaa03d24, type: 2}
+  price: 200
+  priceMultiplicator: 1
+  sellPriceOverride: -1
+  count: []
+  liveCheckpoint: 0
+  chanceToTrader: 0
+  linearPowerCoeff: 0.15
+  absolutePowerCoeff: 0
+  beltableItemType: 1
+  damage: 400
+  projectile: 13
+  explosion: {fileID: 11400000, guid: 9ddf2cdaa83b2f1488a7818bc7d83f52, type: 2}
+  throwForce: 15
+  explodeDelay: 100
+  collisionDelay: 2
+  enemyBallisticExplode: 1
+  useRadiusExtension: 1
+  radiusExtension: 0.5

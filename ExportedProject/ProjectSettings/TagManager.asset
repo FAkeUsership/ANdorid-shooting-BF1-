@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Map
+  - LocationController
+  - Target
+  - SkipStaticBatcher
+  - Static Models
+  - Terrain
+  - IgnoreMaterialSwitch
+  - SkipStaticBatcherHard
+  - SoundStatic
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Clickable
+  - ProFlares
+  - NavMeshLink
+  - SkyBox
+  - Ballistic
+  - MiniGame
+  - Cutscene
+  - Weapon
+  - UI3D
+  - RagdollBoneEnemy
+  - Units
+  - CollidePlayer
+  - Sortables
+  - 
+  - SoundsEnvironment
+  - 
+  - Player
+  - Snapshot
+  - RaycastTagBone
+  - Projectile
+  - NonClipCollide
+  - UnitsSecondary
+  - DamageZoneExtension
+  - IgnoreRaycastNonPlayer
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

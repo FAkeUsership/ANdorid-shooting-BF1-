@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -675923288, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: BioNetBoss
+  m_EditorClassIdentifier:
+  id: 4
+  maxHealth: 8000
+  enemyLevel: 50
+  partsLifePercentage: 0.1
+  bodyDisappearTime: 0
+  dissapearOffset: 0
+  dropChances: []
+  useRootMotionAnimator: 0
+  stunChance: 0
+  useDestruction: 0
+  attackRate: 0
+  useAttackRange: 0
+  attackRange: 0
+  damage: 0
+  radius: 0
+  rotateToPlayerSpeed: 7
+  timeBetweenAttacks: 2
+  laserDamage: 35
+  laserRate: 1
+  laserSpeed: 999
+  laserRange: 50
+  grenadeDamage: 30
+  grenadeSpeed: 12
+  grenadeRange: 17

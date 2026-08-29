@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1236819581, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: 8Truck
+  m_EditorClassIdentifier:
+  id: 8
+  consumption: 6
+  speed: 110
+  camouflage: 60
+  skinId: 1
+  price: 0
+  cityId: 5
+  onlyForStandalone: 0
+  distanceFromCamera: 8
+  imageSprite: {fileID: 21300000, guid: 5abaa56dd4f7c0c4d87431e7e162bdff, type: 2}
+  speedUpgrade:
+    valueUpgradePerLevel: 5
+    levelUpgradePrice: 4500
+  consumptionUpgrade:
+    valueUpgradePerLevel: 0.5
+    levelUpgradePrice: 9000
+  camouflageUpgrade:
+    valueUpgradePerLevel: 5
+    levelUpgradePrice: 4500
+  modelBundleLink:
+    BundleId: 3
+    Object:
+      fileName: Truck(Game)
+  shopModelBundleLink:
+    BundleId: 3
+    Object:
+      fileName: Truck(Shop)

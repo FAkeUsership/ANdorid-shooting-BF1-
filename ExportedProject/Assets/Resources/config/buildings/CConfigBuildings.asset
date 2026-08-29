@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -463949114, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: CConfigBuildings
+  m_EditorClassIdentifier:
+  maxLevel: 8
+  goldPerMinute: 1
+  healthPerLevel: 5
+  baseTime: 180
+  timePerLevel: 10
+  baseRewardPerPoi: 2000
+  poiRewardPerLevel: 300
+  baseLocationCount: 3
+  locationPerLevel: 1
+  gasLabCraftings: 0100000002000000
+  maxCraftPerLevel: 1
+  baseCraftingReduction: 1
+  craftingReductionPerLevel: 0.05
+  baseOfferCount: 2
+  offerCountPerLevel: 0.25
+  baseOfferTime: 720
+  offerTimePerLevel: 10
+  tradeBaseReward: 1
+  tradeRewardPerLevel: 0.05
+  silverCoinsRewardChance: 0.5
+  minOfferTime: 10
+  maxOfferTime: 180
+  goldRewardCoef: 0.75
+  silverRewardCoef: 1.2

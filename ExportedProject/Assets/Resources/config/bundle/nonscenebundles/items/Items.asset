@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2080204064, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: Items
+  m_EditorClassIdentifier:
+  isLocalBundleOnAndroid: 0
+  isLocalBundleOnIOs: 1
+  filepath: Bundles
+  filename: nonsceneitems
+  crc: 2956047358
+  currentHash128: b0989338fb6397faef8f438dfd9a6ffb
+  sizeInKb: 513
+  dependencies:
+  - {fileID: 11400000, guid: ea9967c66410ecf4ab8998d2d8443837, type: 2}
+  - {fileID: 11400000, guid: 9ab18e79e413b1247899091615407abb, type: 2}
+  id: 6

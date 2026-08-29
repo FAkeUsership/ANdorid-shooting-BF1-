@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1236819581, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: 2Lada
+  m_EditorClassIdentifier:
+  id: 2
+  consumption: 30
+  speed: 25
+  camouflage: 14
+  skinId: 1
+  price: 0
+  cityId: 1
+  onlyForStandalone: 0
+  distanceFromCamera: 2
+  imageSprite: {fileID: 21300000, guid: f0f713dd023046f4ca332c81d9fcd0d5, type: 2}
+  speedUpgrade:
+    valueUpgradePerLevel: 0
+    levelUpgradePrice: 0
+  consumptionUpgrade:
+    valueUpgradePerLevel: 0
+    levelUpgradePrice: 0
+  camouflageUpgrade:
+    valueUpgradePerLevel: 0
+    levelUpgradePrice: 0
+  modelBundleLink:
+    BundleId: 3
+    Object:
+      fileName: Lada(Game)
+  shopModelBundleLink:
+    BundleId: 3
+    Object:
+      fileName: Lada(Shop)

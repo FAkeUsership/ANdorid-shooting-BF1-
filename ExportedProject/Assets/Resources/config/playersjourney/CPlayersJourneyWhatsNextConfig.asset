@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1844566763, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: CPlayersJourneyWhatsNextConfig
+  m_EditorClassIdentifier:
+  items:
+  - id: 1
+    sprite: {fileID: 21300000, guid: cfe1ea68b2cc31544861caf884e95f7b, type: 2}
+  - id: 2
+    sprite: {fileID: 21300000, guid: b329c110df3ccf0478b944b9afa5dc5f, type: 2}
+  - id: 3
+    sprite: {fileID: 21300000, guid: 4c33683ca96c71048b6ef22efd22e739, type: 2}
+  - id: 100
+    sprite: {fileID: 21300000, guid: 8285eb9802df7854291c6c540bc79e1f, type: 2}
+  - id: 101
+    sprite: {fileID: 21300000, guid: 217a2627d473db0439d3c4e99ce6ac9d, type: 2}
+  - id: 1000
+    sprite: {fileID: 21300000, guid: 027b8b7906c45a141bb4e33246ba3018, type: 2}
+  - id: 1001
+    sprite: {fileID: 21300000, guid: c7f8e4d1be4de3b4897de97ce142fd43, type: 2}
+  - id: 1002
+    sprite: {fileID: 21300000, guid: be301d4a8cba3524bbd9685be7966fcf, type: 2}
+  - id: 1003
+    sprite: {fileID: 21300000, guid: b48b06a988eb2584fb239035f4164133, type: 2}
+  - id: 1004
+    sprite: {fileID: 21300000, guid: 3338e5c7c08647e41935ca76387b9b88, type: 2}
+  - id: 1005
+    sprite: {fileID: 21300000, guid: 813817f3b74eb7744b8f98413d479ca0, type: 2}
+  - id: 1006
+    sprite: {fileID: 21300000, guid: 2e5eb2924c8c14a4086a1a43480635df, type: 2}
+  - id: 1007
+    sprite: {fileID: 21300000, guid: 369007d8e0f3e764f99b520ec88f3f9f, type: 2}
+  - id: 1008
+    sprite: {fileID: 21300000, guid: 88fa89540ec95a145b0573c23d94da93, type: 2}
+  - id: 1009
+    sprite: {fileID: 21300000, guid: bde85c4717899584fa000998706f4beb, type: 2}
+  - id: 4
+    sprite: {fileID: 21300000, guid: ab9af6ce7acc0c44e94058ba2999c62b, type: 2}
+  - id: 1010
+    sprite: {fileID: 21300000, guid: 5778e495b1ecfff4bbf3b3d53f0c1ff1, type: 2}
+  - id: 1011
+    sprite: {fileID: 21300000, guid: bd860cb2d5e0e3a41bd6492fd1ea64b9, type: 2}
+  - id: 1012
+    sprite: {fileID: 21300000, guid: b7ff2b0b74f29e043bd27ac6ca983c96, type: 2}
+  - id: 1013
+    sprite: {fileID: 21300000, guid: 3578eedfb878a9248ac17e002c297cf1, type: 2}
+  - id: 1014
+    sprite: {fileID: 21300000, guid: 2849db9159876c54eb6e1133ca51d784, type: 2}

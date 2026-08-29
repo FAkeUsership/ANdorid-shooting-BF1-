@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1434367516, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: CConfigDealer
+  m_EditorClassIdentifier:
+  showDealerSinceLevel: 2
+  healthOfferHeal: 50
+  healthOfferMaxHealthPercent: 40
+  ammoOfferCount: 200
+  ammoOfferMaxCurrent: 50
+  compassBonusRange: 25
+  specialItemOffers:
+  - offerId: 1
+    itemId: 1001
+    itemcount: 3
+  - offerId: 2
+    itemId: 3500
+    itemcount: 5
+  - offerId: 3
+    itemId: 1
+    itemcount: 1
+  - offerId: 4
+    itemId: 1000
+    itemcount: 2
+  - offerId: 5
+    itemId: 1003
+    itemcount: 2
+  - offerId: 6
+    itemId: 1005
+    itemcount: 1
+  citySpecialOffers:
+  - cityId: 1
+    defaultOfferId: 1
+    chanceOffers:
+    - offerId: 4
+      chance: 20
+  - cityId: 2
+    defaultOfferId: 4
+    chanceOffers:
+    - offerId: 5
+      chance: 20
+  - cityId: 3
+    defaultOfferId: 4
+    chanceOffers:
+    - offerId: 5
+      chance: 20
+  - cityId: 4
+    defaultOfferId: 4
+    chanceOffers:
+    - offerId: 5
+      chance: 20
+  - cityId: 5
+    defaultOfferId: 4
+    chanceOffers:
+    - offerId: 6
+      chance: 10

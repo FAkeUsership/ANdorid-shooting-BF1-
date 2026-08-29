@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1138803861, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: TunnelGuard
+  m_EditorClassIdentifier:
+  character: 409
+  avatar: {fileID: 21300000, guid: d7627a683f147a44ca0f8de795d00412, type: 2}
+  isAnimal: 0
+  isWoman: 0
+  cityId: 5
+  isQuestGiver: 0

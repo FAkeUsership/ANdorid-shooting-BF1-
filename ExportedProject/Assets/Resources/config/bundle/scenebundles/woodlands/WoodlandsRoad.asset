@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1732598522, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: WoodlandsRoad
+  m_EditorClassIdentifier:
+  isLocalBundleOnAndroid: 0
+  isLocalBundleOnIOs: 1
+  filepath: Bundles
+  filename: woodlandsroadwoodlands
+  crc: 3755201043
+  currentHash128: 5b03d4c6ac6cd3e9e0c3b189966ffa65
+  sizeInKb: 1831
+  dependencies:
+  - {fileID: 11400000, guid: ea9967c66410ecf4ab8998d2d8443837, type: 2}
+  - {fileID: 11400000, guid: 9ab18e79e413b1247899091615407abb, type: 2}
+  containingScenes:
+  - RoadWoodlands
+  id: 1008

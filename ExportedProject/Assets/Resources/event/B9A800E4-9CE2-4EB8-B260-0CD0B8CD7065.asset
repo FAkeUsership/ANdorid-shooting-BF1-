@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -210918009, guid: a9e21bc7bb762a5cf3086c00d123625f, type: 3}
+  m_Name: B9A800E4-9CE2-4EB8-B260-0CD0B8CD7065
+  m_EditorClassIdentifier:
+  objectName: CS_UglyFace_Scream_03
+  id: 929742240
+  guid: B9A800E4-9CE2-4EB8-B260-0CD0B8CD7065
+  IsInUserDefinedSoundBank: 1

@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1349897237, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: ZombieSkinny
+  m_EditorClassIdentifier:
+  id: 2
+  defaultPoolSize: 5
+  bundleLink:
+    BundleId: 4
+    Object:
+      fileName: Assets/Bundles/EnemiesBundle/PerCity/Enemies/Moving/Basic/E-ZombieSkinny.prefab
+  defaultFraction: 3
+  expectedNavmeshHeight: 0
+  accelerationSpeedAgent: 8
+  navmeshRadius: 0.5
+  useSecondaryNavmeshRadius: 0
+  secondaryNavmeshRadius: 0
+  baseOffset: 0
+  useDestruction: 1
+  partsLifePercentage: 0.1
+  dropChances:
+  - chance: 0.2
+  - chance: 0.05
+  stunChance: 0
+  health: 20
+  movementSpeed: 1.35
+  useRun: 0
+  runSpeedMultiplicator: 2
+  minRunLength: 2
+  maxRunLength: 4
+  minExhaustLength: 1
+  maxExhaustLength: 2
+  useMinDistanceToRun: 0
+  minDistanceToRun: 5
+  immuneToFlashBang: 0
+  lastHitForceResitance: 0
+  lastHitMinimalHitForce: 0
+  explosionResistance: 0
+  useBasicAttack: 1
+  damage: 5
+  attackRange: 1.7
+  attackRate: 2
+  attackLengthMultiplicator: 0.9
+  specialAttackRate: 0
+  spread: 0
+  numberOfProjectiles: 0
+  projectileRange: 30
+  wavePattern: 0
+  sinMagnitude: 0.5
+  sinSpeed: 20
+  useSpecialAttack: 0
+  specialAttackDamage: 0
+  specialAttackMinDistance: 0
+  specialAttackMaxDistance: 0
+  specialAttackRadius: 0
+  specialAttackStunChance: 0
+  specialAttackProjectileSpeed: 45
+  laser1DamageRate: 0.1
+  useSpecialAttack2: 0
+  specialAttack2Damage: 0
+  specialAttack2MinDistance: 0
+  specialAttack2ProjectileSpeed: 0
+  specialAttack2Radius: 0
+  laser2DamageRate: 0.1
+  shieldCastTime: 1
+  minMeteorCount: 1
+  maxMeteorCount: 1
+  meteorSpread: 0
+  special2HealthRange: []
+  useSpecialAttack3: 0
+  specialAttack3Damage: 0
+  specialAttack3MinDistance: 0
+  specialAttack3ProjectileSpeed: 0
+  laser3DamageRate: 0.1
+  useReload: 0
+  magazineSize: 0
+  useDistanceDamage: 0
+  distanceDamage: 0
+  distanceDamageRadius: 0
+  distanceDamageTimeInterval: 0
+  useDesynchronisation: 0
+  movementSpeedDesyncVal: 0
+  attackRateDesyncVal: 0
+  specialAttackRateDesyncVal: 0
+  scanRange: 7
+  scanDelay:
+    Min: 0
+    Max: 0
+  patrollingRange: 15
+  patrolChangeDirectionInterval: 3
+  bodyDisappearTime: 5
+  patrollAnimClamp: 0

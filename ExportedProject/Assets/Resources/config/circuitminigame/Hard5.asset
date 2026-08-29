@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1150902241, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: Hard5
+  m_EditorClassIdentifier:
+  timeInSec: 20
+  entryPoints: 0001000000
+  exitPoints: 0000000001
+  fields:
+  - fieldType: 2
+    fieldRotation: 2
+  - fieldType: 2
+    fieldRotation: 3
+  - fieldType: 1
+    fieldRotation: 3
+  - fieldType: 1
+    fieldRotation: 1
+  - fieldType: 2
+    fieldRotation: 2
+  - fieldType: 1
+    fieldRotation: 2
+  - fieldType: 2
+    fieldRotation: 3
+  - fieldType: 3
+    fieldRotation: 4
+  - fieldType: 1
+    fieldRotation: 1
+  - fieldType: 3
+    fieldRotation: 1
+  - fieldType: 2
+    fieldRotation: 4
+  - fieldType: 3
+    fieldRotation: 4
+  - fieldType: 10
+    fieldRotation: 0
+  - fieldType: 1
+    fieldRotation: 1
+  - fieldType: 1
+    fieldRotation: 1
+  - fieldType: 3
+    fieldRotation: 2
+  - fieldType: 1
+    fieldRotation: 2
+  - fieldType: 3
+    fieldRotation: 1
+  - fieldType: 2
+    fieldRotation: 4
+  - fieldType: 1
+    fieldRotation: 3
+  - fieldType: 3
+    fieldRotation: 4
+  - fieldType: 3
+    fieldRotation: 1
+  - fieldType: 2
+    fieldRotation: 4
+  - fieldType: 10
+    fieldRotation: 0
+  - fieldType: 10
+    fieldRotation: 0
+  - fieldType: 2
+    fieldRotation: 2
+  - fieldType: 3
+    fieldRotation: 3
+  - fieldType: 2
+    fieldRotation: 4
+  - fieldType: 3
+    fieldRotation: 3
+  - fieldType: 1
+    fieldRotation: 3
+  - fieldType: 3
+    fieldRotation: 2
+  - fieldType: 3
+    fieldRotation: 2
+  - fieldType: 2
+    fieldRotation: 1
+  - fieldType: 1
+    fieldRotation: 2
+  - fieldType: 1
+    fieldRotation: 4

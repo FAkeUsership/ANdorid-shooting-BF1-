@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -210918009, guid: a9e21bc7bb762a5cf3086c00d123625f, type: 3}
+  m_Name: 57C1E4F4-E8A1-4E07-A924-C6397418E0BB
+  m_EditorClassIdentifier:
+  objectName: OldWoodlands_Birth_06
+  id: 707318074
+  guid: 57C1E4F4-E8A1-4E07-A924-C6397418E0BB
+  IsInUserDefinedSoundBank: 1

@@ -1,0 +1,12 @@
+{"Elements":[
+{"Id":"Action","Position":{"x":-330,"y":90,"z":0.0},"AnchorMin":{"x":1,"y":0.5},"AnchorMax":{"x":1,"y":0.5},"Size":{"x":188.0,"y":188.0},"Static":false},
+{"Id":"Attack","Position":{"x":127,"y":552,"z":0.0},"AnchorMin":{"x":0.0,"y":0.0},"AnchorMax":{"x":0.0,"y":0.0},"Size":{"x":150.0,"y":150.0},"Static":false},
+{"Id":"Attack2","Position":{"x":-330,"y":-100,"z":0.0},"AnchorMin":{"x":1.0,"y":0.5},"AnchorMax":{"x":1.0,"y":0.5},"Size":{"x":150.0,"y":150.0},"Static":false},
+{"Id":"NextWeapon","Position":{"x":-175,"y":70,"z":0.0},"AnchorMin":{"x":1.0,"y":0.0},"AnchorMax":{"x":1.0,"y":0.0},"Size":{"x":311.0,"y":105.0},"Static":true},
+{"Id":"Ammo","Position":{"x":-185,"y":197,"z":0.0},"AnchorMin":{"x":1.0,"y":0.0},"AnchorMax":{"x":1.0,"y":0.0},"Size":{"x":269.0,"y":73.0},"Static":true},
+{"Id":"BeltSlot1","Position":{"x":-94,"y":-250,"z":0.0},"AnchorMin":{"x":1.0,"y":1.0},"AnchorMax":{"x":1.0,"y":1.0},"Size":{"x":149.0,"y":101.0},"Static":false},
+{"Id":"BeltSlot2","Position":{"x":-94,"y":-375,"z":0.0},"AnchorMin":{"x":1.0,"y":1.0},"AnchorMax":{"x":1.0,"y":1.0},"Size":{"x":149.0,"y":101.0},"Static":false},
+{"Id":"Dealer","Position":{"x":-80,"y":-515,"z":0.0},"AnchorMin":{"x":1.0,"y":1.0},"AnchorMax":{"x":1.0,"y":1.0},"Size":{"x":122.0,"y":130.0},"Static":true},
+{"Id":"Backpack","Position":{"x":-370,"y":69,"z":0.0},"AnchorMin":{"x":1.0,"y":0.0},"AnchorMax":{"x":1.0,"y":0.0},"Size":{"x":100.0,"y":100.0},"Static":true},
+{"Id":"MissionEndChoice","Position":{"x":0,"y":88.5,"z":0.0},"AnchorMin":{"x":0.5,"y":0.0},"AnchorMax":{"x":0.5,"y":0.0},"Size":{"x":540.0,"y":77.0},"Static":true}
+]}

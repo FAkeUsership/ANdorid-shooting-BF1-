@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1046148683, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: CConfigShop
+  m_EditorClassIdentifier:
+  conversionGoldToSilver:
+    currentCryptoKey: 444444
+    hiddenValue: 444424
+    fakeValue: 0
+    fakeValueActive: 0
+    inited: 1
+  conversionGoldToSilverOnlyShop:
+    currentCryptoKey: 444444
+    hiddenValue: 444421
+    fakeValue: 25
+    fakeValueActive: 1
+    inited: 1
+  timeBetweenFreeGas:
+    currentCryptoKey: 444444
+    hiddenValue: 443916
+    fakeValue: 3600
+    fakeValueActive: 1
+    inited: 1
+  timeMaxFreeGasSeconds:
+    currentCryptoKey: 444442
+    hiddenValue: 418010
+    fakeValue: 43200
+    fakeValueActive: 1
+    inited: 1
+  timeBetweenFreeGold:
+    currentCryptoKey: 444444
+    hiddenValue: 418012
+    fakeValue: 43200
+    fakeValueActive: 1
+    inited: 1
+  goldPack1Free:
+    currentCryptoKey: 444444
+    hiddenValue: 444438
+    fakeValue: 10
+    fakeValueActive: 1
+    inited: 1
+  goldPack2Video:
+    currentCryptoKey: 444444
+    hiddenValue: 444438
+    fakeValue: 10
+    fakeValueActive: 1
+    inited: 1
+  goldPack1:
+    currentCryptoKey: 444444
+    hiddenValue: 444788
+    fakeValue: 360
+    fakeValueActive: 1
+    inited: 1
+  goldPack2:
+    currentCryptoKey: 444444
+    hiddenValue: 445244
+    fakeValue: 800
+    fakeValueActive: 1
+    inited: 1
+  goldPack3:
+    currentCryptoKey: 444444
+    hiddenValue: 446228
+    fakeValue: 1800
+    fakeValueActive: 1
+    inited: 1
+  goldPack4:
+    currentCryptoKey: 444444
+    hiddenValue: 450412
+    fakeValue: 6000
+    fakeValueActive: 1
+    inited: 1
+  goldPack5:
+    currentCryptoKey: 444444
+    hiddenValue: 458412
+    fakeValue: 14000
+    fakeValueActive: 1
+    inited: 1
+  goldBestValueOfferProbability: 0.15
+  survivalPacks:
+  - cityId: 1
+    normalGold: 100
+    normalSilver: 8000
+    lowTierGold: 60
+    lowTierSilver: 5000
+  - cityId: 2
+    normalGold: 100
+    normalSilver: 16000
+    lowTierGold: 60
+    lowTierSilver: 10000
+  - cityId: 4
+    normalGold: 100
+    normalSilver: 25000
+    lowTierGold: 60
+    lowTierSilver: 20000
+  - cityId: 5
+    normalGold: 100
+    normalSilver: 45000
+    lowTierGold: 60
+    lowTierSilver: 30000
+  gasPack1Free:
+    currentCryptoKey: 444444
+    hiddenValue: 444438
+    fakeValue: 10
+    fakeValueActive: 1
+    inited: 1
+  gasPack2Video:
+    currentCryptoKey: 444444
+    hiddenValue: 444435
+    fakeValue: 15
+    fakeValueActive: 1
+    inited: 1
+  gasPack3:
+    currentCryptoKey: 444444
+    hiddenValue: 444438
+    fakeValue: 0
+    fakeValueActive: 0
+    inited: 1
+  gasPack3Price:
+    currentCryptoKey: 444444
+    hiddenValue: 444438
+    fakeValue: 10
+    fakeValueActive: 1
+    inited: 1
+  gasPack4:
+    currentCryptoKey: 444444
+    hiddenValue: 444424
+    fakeValue: 20
+    fakeValueActive: 1
+    inited: 1
+  gasPack4Price:
+    currentCryptoKey: 444444
+    hiddenValue: 444424
+    fakeValue: 20
+    fakeValueActive: 1
+    inited: 1
+  gasBonusItemId: 1000
+  gasBonusItemCount:
+    currentCryptoKey: 444444
+    hiddenValue: 444424
+    fakeValue: 0
+    fakeValueActive: 0
+    inited: 1
+  gasBiggerTankVolume:
+    currentCryptoKey: 444444
+    hiddenValue: 444421
+    fakeValue: 0
+    fakeValueActive: 0
+    inited: 1
+  gasBiggerTankMaxCount:
+    currentCryptoKey: 444444
+    hiddenValue: 444441
+    fakeValue: 0
+    fakeValueActive: 0
+    inited: 1
+  treasureRoadGenerationTime:
+    currentCryptoKey: 444444
+    hiddenValue: 444444
+    fakeValue: 0
+    fakeValueActive: 1
+    inited: 1
+  defaultTreasureRoad:
+    elements:
+    - element: 3
+      count: 200
+      isFree: 1
+    - element: 2
+      count: 10
+      isFree: 0
+    - element: 2
+      count: 10
+      isFree: 0
+    - element: 1
+      count: 3600
+      isFree: 0
+    - element: 5
+      count: 1
+      isFree: 0
+    - element: 3
+      count: 200
+      isFree: 1
+    - element: 2
+      count: 10
+      isFree: 0
+    - element: 4
+      count: 1
+      isFree: 0
+    - element: 1
+      count: 3600
+      isFree: 0
+    - element: 6
+      count: 1
+      isFree: 0
+  ShopSpecialOffer:
+    weaponDamageCoef:
+      minValue: 1
+      maxValue: 1.3
+    weaponAttackSpeedCoef:
+      minValue: 1
+      maxValue: 1.3
+    weaponReloadSpeedCoef:
+      minValue: 1
+      maxValue: 1.3
+    weaponMagazineSizeCoef:
+      minValue: 1
+      maxValue: 1
+    weaponDamageFixCoef:
+      minValue: 1
+      maxValue: 1.15
+    weaponAttackSpeedFixCoef:
+      minValue: 1
+      maxValue: 1.15
+    weaponReloadSpeedFixCoef:
+      minValue: 1
+      maxValue: 1.15
+    weaponMagazineSizeFixCoef:
+      minValue: 1
+      maxValue: 1
+  ShopUpgradesOffer:
+    biggerBackpackColumns: 4
+    biggerBackpackMaxCount: 5
+    biggerTrunkColumns: 6
+    biggerTrunkMaxCount: 5
+    skillPointsCount: 30
+    perkPointsCount: 3
+    luckyWheelHours: 24
+  gamePhases:
+  - id: 1
+    cityId: 1
+    questId: 0
+  - id: 2
+    cityId: 2
+    questId: 0
+  - id: 3
+    cityId: 2
+    questId: 10040
+  - id: 4
+    cityId: 4
+    questId: 0
+  - id: 5
+    cityId: 4
+    questId: 3017
+  - id: 6
+    cityId: 5
+    questId: 0

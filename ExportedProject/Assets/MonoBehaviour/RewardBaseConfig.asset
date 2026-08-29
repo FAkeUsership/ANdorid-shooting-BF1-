@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1485207272, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: RewardBaseConfig
+  m_EditorClassIdentifier:
+  maxSilverCoinsValueLowType: 1000
+  maxSilverCoinValueMediumType: 2000
+  maxSilverCoinValueHighType: 3000
+  rewardItems:
+  - {fileID: 11400000, guid: 577f18cd7ac59924bba5ab601acbfab4, type: 2}
+  - {fileID: 11400000, guid: 7d79df99997b17b4cb2862ea6b022dee, type: 2}
+  - {fileID: 11400000, guid: b69d19c4556ef6e4292eb717e19688d9, type: 2}
+  - {fileID: 11400000, guid: af24a38b2b950ce45a71f100dbf5e6ef, type: 2}
+  - {fileID: 11400000, guid: cf7b823c3eadf104b9ebdece71c03b22, type: 2}
+  - {fileID: 11400000, guid: 1bd72082b747a9e45ae4ba47efcc624a, type: 2}

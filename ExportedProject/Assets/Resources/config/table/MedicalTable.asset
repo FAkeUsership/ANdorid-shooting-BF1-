@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 407986320, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: MedicalTable
+  m_EditorClassIdentifier:
+  type: 2
+  products:
+  - ItemId: 4501
+    Count: 1
+  speedMinutes: 60
+  spaceCount: 1
+  upgrades:
+  - id: 1
+    icon: {fileID: 21300000, guid: 087fe3eca5f5e5944bbe5bf985a2e6ac, type: 2}
+    levelBonus: 1
+    levelPrice: 2500
+  - id: 2
+    icon: {fileID: 21300000, guid: f56c9ec7b495c6c46936e7e648252afe, type: 2}
+    levelBonus: 10
+    levelPrice: 2500
+  modelBundleLink:
+    BundleId: 3
+    Object:
+      fileName: MedicalTable
+  shopModelBundleLink:
+    BundleId: 3
+    Object:
+      fileName: MedicalTable

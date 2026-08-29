@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1349897237, guid: 31fe64c129ba95a3e87ec44209964472, type: 3}
+  m_Name: BossRevil
+  m_EditorClassIdentifier:
+  id: 61
+  defaultPoolSize: 1
+  bundleLink:
+    BundleId: 15
+    Object:
+      fileName: Assets/Bundles/EnemiesBundle/PerCity/Enemies/Moving/PseudoFinished/E-BossRevil.prefab
+  defaultFraction: 2
+  expectedNavmeshHeight: 0
+  accelerationSpeedAgent: 8
+  navmeshRadius: 2
+  useSecondaryNavmeshRadius: 0
+  secondaryNavmeshRadius: 0
+  baseOffset: 0
+  useDestruction: 0
+  partsLifePercentage: 0.1
+  dropChances:
+  - chance: 0.2
+  - chance: 0.05
+  stunChance: 0
+  health: 4500
+  movementSpeed: 1.4
+  useRun: 1
+  runSpeedMultiplicator: 2.6
+  minRunLength: 6
+  maxRunLength: 6
+  minExhaustLength: 0
+  maxExhaustLength: 0
+  useMinDistanceToRun: 1
+  minDistanceToRun: 9
+  immuneToFlashBang: 1
+  lastHitForceResitance: 0
+  lastHitMinimalHitForce: 0
+  explosionResistance: 0
+  useBasicAttack: 1
+  damage: 35
+  attackRange: 2.3
+  attackRate: 1.8
+  attackLengthMultiplicator: 1
+  specialAttackRate: 4
+  spread: 0
+  numberOfProjectiles: 0
+  projectileRange: 30
+  wavePattern: 0
+  sinMagnitude: 0.5
+  sinSpeed: 20
+  useSpecialAttack: 1
+  specialAttackDamage: 25
+  specialAttackMinDistance: 2
+  specialAttackMaxDistance: 50
+  specialAttackRadius: 2
+  specialAttackStunChance: 0
+  specialAttackProjectileSpeed: 15
+  laser1DamageRate: 0.1
+  useSpecialAttack2: 1
+  specialAttack2Damage: 30
+  specialAttack2MinDistance: 3
+  specialAttack2ProjectileSpeed: 20
+  specialAttack2Radius: 2
+  laser2DamageRate: 0.1
+  shieldCastTime: 2
+  minMeteorCount: 5
+  maxMeteorCount: 9
+  meteorSpread: 4
+  special2HealthRange:
+  - 0.9
+  - 0.7
+  - 0.5
+  - 0.3
+  - 0.1
+  useSpecialAttack3: 0
+  specialAttack3Damage: 0
+  specialAttack3MinDistance: 0
+  specialAttack3ProjectileSpeed: 0
+  laser3DamageRate: 0.1
+  useReload: 0
+  magazineSize: 0
+  useDistanceDamage: 0
+  distanceDamage: 0
+  distanceDamageRadius: 0
+  distanceDamageTimeInterval: 0
+  useDesynchronisation: 0
+  movementSpeedDesyncVal: 0.3
+  attackRateDesyncVal: 0.25
+  specialAttackRateDesyncVal: 0.38
+  scanRange: 15
+  scanDelay:
+    Min: 0
+    Max: 0
+  patrollingRange: 20
+  patrolChangeDirectionInterval: 5
+  bodyDisappearTime: 5
+  patrollAnimClamp: 0

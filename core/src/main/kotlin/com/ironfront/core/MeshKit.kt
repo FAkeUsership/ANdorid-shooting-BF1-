@@ -22,7 +22,7 @@ class MeshKit(seed: Int = 7) {
     fun vert(x: Float, y: Float, z: Float, nx: Float, ny: Float, nz: Float, r: Float, g: Float, b: Float) {
         v.add(x); v.add(y); v.add(z)
         v.add(nx); v.add(ny); v.add(nz)
-        v.add(r); v.add(g); v.add(b)
+        v.add(r); v.add(g); v.add(b); v.add(1f)
         vc++
     }
 
@@ -99,7 +99,7 @@ class MeshKit(seed: Int = 7) {
             VertexAttributes(
                 VertexAttribute(VertexAttributes.Usage.Position, 3, "a_position"),
                 VertexAttribute(VertexAttributes.Usage.Normal, 3, "a_normal"),
-                VertexAttribute(VertexAttributes.Usage.ColorUnpacked, 3, "a_color")))
+                VertexAttribute(VertexAttributes.Usage.ColorUnpacked, 4, "a_color")))
         mesh.setVertices(v.toFloatArray())
         mesh.setIndices(i.map { it.toShort() }.toShortArray())
         return mesh

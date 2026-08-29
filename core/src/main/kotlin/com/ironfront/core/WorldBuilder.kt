@@ -61,7 +61,7 @@ class WorldBuilder {
         val n = 96
         val size = 380f
         val vc = (n + 1) * (n + 1)
-        val verts = FloatArray(vc * 9)
+        val verts = FloatArray(vc * 10)
         val idx = ShortArray(n * n * 6)
         val mudAr = 0.345f; val mudAg = 0.271f; val mudAb = 0.184f
         val mudBr = 0.427f; val mudBg = 0.325f; val mudBb = 0.220f
@@ -94,7 +94,7 @@ class WorldBuilder {
             }
             verts[p++] = x; verts[p++] = y; verts[p++] = z
             verts[p++] = nxv; verts[p++] = nyv; verts[p++] = nzv
-            verts[p++] = r; verts[p++] = g; verts[p++] = b
+            verts[p++] = r; verts[p++] = g; verts[p++] = b; verts[p++] = 1f
         }
         var q = 0
         for (iz in 0 until n) for (ix in 0 until n) {
@@ -109,7 +109,7 @@ class WorldBuilder {
             VertexAttributes(
                 VertexAttribute(VertexAttributes.Usage.Position, 3, "a_position"),
                 VertexAttribute(VertexAttributes.Usage.Normal, 3, "a_normal"),
-                VertexAttribute(VertexAttributes.Usage.ColorUnpacked, 3, "a_color")))
+                VertexAttribute(VertexAttributes.Usage.ColorUnpacked, 4, "a_color")))
         mesh.setVertices(verts)
         mesh.setIndices(idx)
         return mesh
